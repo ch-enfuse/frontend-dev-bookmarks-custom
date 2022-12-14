@@ -4,7 +4,9 @@ metadata:
   name: frontend-dev-bookmarks-custom
   annotations:
     github.com/project-slug: ch-enfuse/frontend-dev-bookmarks-custom
+    backstage.io/techdocs-ref: dir:.
 spec:
   type: other
-  lifecycle: unknown
+  lifecycle: experimental
   owner: Bench
+  system: enfuse-asae-sandbox-test

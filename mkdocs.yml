@@ -1,0 +1,15 @@
+site_name: Frontend-dev-bookmarks
+repo_url: https://github.com/dypsilon/frontend-dev-bookmarks
+
+nav:
+  - Home: index.md
+  - Appearance: appearance.md
+  - Architecture: architecture.md
+  - Compatability: compatability.md
+  - Ecosystem: ecosystem.md
+  - Languages Protocols Apis: languages-protocols.apis.md
+  - Ui Components: ui-components.md
+  - Workflows: workflows.md
+
+plugins:
+  - techdocs-core
