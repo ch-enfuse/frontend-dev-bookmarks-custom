@@ -1,0 +1,10 @@
+name: backstage-triggered-wf
+on:
+  # Allows you to run this workflow from outside Github
+  repository_dispatch:
+jobs:
+  test-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run a one-line script
+        run: echo Workflow triggered!
